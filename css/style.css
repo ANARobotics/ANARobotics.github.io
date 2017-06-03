@@ -707,8 +707,16 @@ section.test .test-agile img.img-circle.img-responsive {
 	float:left;
 	width:100px;
 }
+section.test .test-agile img.img-rounded.img-responsive {
+    float:left;
+    width:100px;
+    border-radius:16px;
+}
+section.test .test-agile img.img-download.img-responsive {
+    width:100px;
+}
 section.test .test-agile h4 {
-    font-size: 17px;
+    font-size: 22px;
     font-weight: normal;
     color: #000;
     padding: 20px 0 15px;
