@@ -61,7 +61,7 @@ body {
 .top-bar {
 	margin:0 auto;
 	padding:7px 0;
-	background-color:#000000;
+	background-color:#28b3b6;
 }
 ul.top-contacts , ul.top-links {
 	list-style:none;
@@ -81,7 +81,7 @@ ul.top-links li {
 	display:inline-block;
 }
 .top-bar ul.top-contacts li p , .top-bar ul.top-contacts li p a {
-    color: #fed136;
+    color: #fff;
 	text-decoration:none;
 	font-size: 16px;
     font-weight:400;
@@ -123,17 +123,17 @@ ul.top-links li {
 /*-- /top-bar --*/
 /*-- navigation section --*/
 .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-    color:#fed136;
+    color:#28b3b6;
     background-color: transparent;
 }
 .navbar-inverse .navbar-brand {
-    color:#fed136;
+    color:#28b3b6;
 	padding:20px 15px;
 }
 .navbar-brand h1 {
 	font-size:35px;
 	font-weight:normal;
-	color:#fed136;
+	color:#28b3b6;
 	text-transform:uppercase;
 }
 .navbar-inverse .navbar-nav>li>a {
@@ -158,53 +158,54 @@ ul.top-links li {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.navbar-wrapper .navbar {
+ .navbar {
     border-radius: 0px;
 }
-.navbar-wrapper {
+ {
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   z-index: 20;
 }
-.navbar-wrapper > .container {
+ > .container {
   padding-right: 0;
   padding-left: 0;
 }
-.navbar-wrapper .navbar {
+ .navbar {
   padding-right: 15px;
   padding-left: 15px;
 }
-.navbar-wrapper .navbar .container {
+ .navbar .container {
   width: auto;
 }
 .navbar {
 	margin-bottom:0;
 	height:85px;
+    /*85*/
 }
 
 @media (min-width: 768px) {
-  .navbar-wrapper {
+   {
     margin-top: 57px;
   }
-  .navbar-wrapper .container {
+   .container {
     padding-right: 15px;
     padding-left: 15px;
   }
-  .navbar-wrapper .navbar {
+   .navbar {
     padding-right: 0;
     padding-left: 0;
   }
 }
 
-.navbar-wrapper  .cl-effect-4 li a::after {
+  .cl-effect-4 li a::after {
 	position: absolute;
 	top:80%;
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background:#fed136;
+	background:#28b3b6;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -214,8 +215,8 @@ ul.top-links li {
 	-moz-transform: translateY(-10px);
 	transform: translateY(-10px);
 }
-.navbar-wrapper  .cl-effect-4 li a:hover::after,
-.navbar-wrapper  .cl-effect-4 li a:focus::after {
+  .cl-effect-4 li a:hover::after,
+  .cl-effect-4 li a:focus::after {
 	height: 5px;
 	opacity: 1;
 	-webkit-transform: translateY(0px);
@@ -285,7 +286,7 @@ ul.top-links li {
 }
 .pogoSlider-slide-element h3:after {
 	content: '';
-    background-color: #fed136;
+    background-color: #28b3b6;
     height: 5px;
     width: 20%;
     left: 6%;
@@ -312,7 +313,7 @@ section.service-w3ls h3.text-center {
 section.service-w3ls h3.text-center:after {
     content: '';
     position: absolute;
-    background-color: #fed136;
+    background-color: #28b3b6;
     width: 5%;
     height: 4px;
     bottom: 25%;
@@ -326,7 +327,7 @@ section.service-w3ls p.text-center {
 section.service-w3ls h4 {
     font-size: 22px;
     font-weight: normal;
-    color: #fed136;
+    color: #28B3B6;
     padding: 0 0 20px;
     text-transform: capitalize;
 }
@@ -351,14 +352,14 @@ section.service-w3ls .carousel-indicators li {
     text-indent: -999px;
     cursor: pointer;
     background-color: rgba(0,0,0,0);
-    border: 1px solid #fed136;
+    border: 1px solid #28b3b6;
     border-radius: 10px;
 }
 section.service-w3ls .carousel-indicators .active {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color:#fed136;
+    background-color:#28b3b6;
 }
 section.service-w3ls .carousel-indicators {
     bottom: -50px;
@@ -420,7 +421,7 @@ section.divider p.banner-p1 {
     font-weight: 400;
 }
 button.btn.btn-lg.btn-success {
-    background-color:#fed136;
+    background-color:#28b3b6;
 	color:#fff;
 }
 /*-- /divider section --*/
@@ -439,7 +440,7 @@ section.work h3.text-center {
 section.work h3.text-center:after {
     content: '';
     position: absolute;
-    background-color: #fed136;
+    background-color: #28b3b6;
     width: 3%;
     height: 4px;
     bottom: 25%;
@@ -556,7 +557,7 @@ section.work .gallery-grids{
 	margin:0;
 }
 section.work .nav-tabs > li.active > a,section.work .nav-tabs > li.active > a:hover,section.work .nav-tabs > li.active > a:focus {
-    color:#fed136;
+    color:#28b3b6;
     cursor:pointer;
     border: none;
     border-bottom-color: transparent;
@@ -583,7 +584,7 @@ section.work .nav-tabs > li > a:hover {
     border: none;
 }
 section.work .nav > li > a:hover,section.work .nav > li > a:focus {
-    color:#fed136;
+    color:#28b3b6;
 	background-color:transparent;
 }
 section.work .cl-effect-4 li a::after {
@@ -592,7 +593,7 @@ section.work .cl-effect-4 li a::after {
 	left: 0;
 	width: 100%;
 	height: 1px;
-	background:#fed136;
+	background:#28b3b6;
 	content: '';
 	opacity: 0;
 	-webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s;
@@ -615,7 +616,7 @@ section.work .nav-tabs > li:nth-child(1),section.work .nav-tabs > li:nth-child(2
 }
 section.work .nav-tabs > li:nth-child(1):after,section.work .nav-tabs > li:nth-child(2):after,section.work .nav-tabs > li:nth-child(3):after,section.work .nav-tabs > li:nth-child(4):after {
 	content: '';
-    background-color: #fed136;
+    background-color: #28b3b6;
     width: 2px;
     height: 20px;
     right: 5px;
@@ -643,7 +644,7 @@ section.test h3.text-center {
 section.test h3.text-center:after {
     content: '';
     position: absolute;
-    background-color: #fed136;
+    background-color: #28b3b6;
     width: 5%;
     height: 4px;
     left: 47.5%;
@@ -718,10 +719,10 @@ section.test .test-agile p.test-p2 {
 	font-style:italic;
 }
 section.test .carousel-indicators li {
-    border: 1px solid #fed136;
+    border: 1px solid #28B3B6;
 }
 section.test .carousel-indicators .active {
-    background-color: #fed136;
+    background-color: #28B3B6;
 }
 section.test .carousel-indicators {
     bottom: -45px;
@@ -730,7 +731,7 @@ section.test .carousel-indicators {
 /*-- subscribe section --*/
 section.subs {
     padding: 100px 0;
-	background:#fed136 url(../images/subscribe.jpg);
+	background:#28b3b6 url(../images/subscribe.jpg);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:100% 100%;
@@ -835,7 +836,7 @@ section.contact-w3ls h3 {
 section.contact-w3ls h3:after {
     content: '';
     position: absolute;
-    background-color: #fed136;
+    background-color: #28b3b6;
     width: 5%;
     height: 4px;
     left: 47.5%;
@@ -869,8 +870,8 @@ section.contact-w3ls ul.social-icons1 li a i.fa {
     -ms-transition: all 0.5s ease-in-out;
 }
 section.contact-w3ls ul.social-icons1 li a i.fa:hover {
-	background-color:#fed136;
-	border: 1px solid #fed136;
+	background-color:#28b3b6;
+	border: 1px solid #28b3b6;
 	color:#fff;
 }
 section.contact-w3ls ul.social-icons1 li a:hover {
@@ -894,7 +895,7 @@ section.contact-w3ls ul.social-icons1 li a:hover {
 	text-decoration:none;
 }
 .footer p a:hover {
-    color: #fed136;
+    color: #28B3B6;
 }
 /*-- /footer section --*/
 /*-- back to top --*/
@@ -992,7 +993,7 @@ section.contact-w3ls ul.social-icons1 li a:hover {
 
 /*-- responsive design --*/
 @media (max-width:1600px) {
-	.navbar-wrapper {
+	 {
     margin-top: 56px;
 }
 .pogoSlider-slide-element {
@@ -1225,7 +1226,7 @@ section.service-w3ls p.text-center, section.work p.text-center, section.test p.t
 	padding-bottom:30px;
 }
 .navbar-inverse .navbar-brand {
-    color: #fed136;
+    color: #28b3b6;
     padding: 23px 15px;
 }
 .navbar-brand h1 {
@@ -1311,12 +1312,12 @@ section.divider p.banner-p1 {
 
 @media (max-width:767px) {
 	.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #fed136;
+    background-color: #28b3b6;
 }
 	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
     background-color: #fff;
 }
-	.navbar-wrapper {
+	 {
     margin-top: 51px;
 }
 	.navbar {
@@ -1337,7 +1338,7 @@ ul.nav.navbar-nav.navbar-right {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.navbar-wrapper  .cl-effect-4 li a::after {
+  .cl-effect-4 li a::after {
 	background-color:#fff;
 }	
 }
@@ -1503,7 +1504,7 @@ ul.top-links {
     text-align: center;
 	padding-bottom:7px;
 }
-.navbar-wrapper {
+ {
     margin-top:105px;
 }
 section.service-w3ls .col-xs-7.serv-agile1 {
@@ -1658,7 +1659,7 @@ section.test .test-agile h4 {
 .navbar-collapse {
     padding: 0;
 }
-.navbar-wrapper .navbar {
+ .navbar {
     padding: 0;
 }
 section.work p.text-center {
@@ -1725,7 +1726,7 @@ section.work p.text-center {
 }
 
 @media (max-width: 320px) {
-.navbar-wrapper {
+ {
     margin-top: 127px;
 }
 .pogoSlider {
