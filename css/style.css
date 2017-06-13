@@ -724,7 +724,7 @@ section.test .test-agile h4 {
 section.test .test-agile p.test-p2 {
 	font-size: 15px;
     font-weight: 400;
-	font-style:italic;
+	/*font-style:italic;*/
 }
 section.test .carousel-indicators li {
     border: 1px solid #28B3B6;
