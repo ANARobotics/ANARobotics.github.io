@@ -59,7 +59,7 @@
 	</div>
 	<div class="pogoSlider-slide " data-transition="shrinkReveal" data-duration="1000"  style="background-image:url(images/banner3.jpg);">
 		<div class="pogoSlider-slide-element">
-			<h3>人形智能机器人 —NAO</h3>
+			<h3>人形智能机器人 —Pepper</h3>
 		</div>
 	</div>
 	<div class="pogoSlider-slide " data-transition="shrinkReveal" data-duration="1000"  style="background-image:url(images/banner4.jpg);">
@@ -305,25 +305,94 @@
 
 <!-- divider section -->
 <section class="slideanim">
-	<div class="modal fade" id="largeModal" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+	<div class="modal fade" id="showTel" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
 		<div class="modal-dialog modal-lg">
 			<div class="modal-content">
 				<div class="modal-header">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h4 class="modal-title" id="myModalLabel">About Us</h4>
+					<h4 class="modal-title" id="myModalLabel">联系电话</h4>
 				</div>
 				<div class="modal-body">
 					
-						<div class="col-lg-6 col-md-6">
-							<img src="images/banner1.jpg" class="img-responsive" alt="w3layouts" title="w3layouts">
+						<div class="col-lg-6 col-md-4">
+							<img src="images/tel_code.jpg" class="img-responsive" alt="w3layouts" title="w3layouts">
 						</div>
-						<div class="col-lg-6 col-md-6">
-							<p class="banner-p1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed nisl ultricies, dignissim mi at, dignissim dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Quisque tempor ultrices nisi eget dictum. Integer quis massa ut elit laoreet consectetur. Sed rhoncus erat tellus, at commodo erat mattis eu.</p>
+						<div class="col-lg-6 col-md-8">
+							<p class="banner-p1" style="font-size:18px">侍先生：+86 15810582942</p>
 						</div>
 						<div class="clearfix"></div>
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-lg btn-success" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="modal fade" id="showWeiXin" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">微信</h4>
+				</div>
+				<div class="modal-body">
+					
+						<div class="col-lg-6 col-md-4">
+							<img src="images/weixin_code.jpg" class="img-responsive" alt="w3layouts" title="w3layouts">
+						</div>
+						<div class="col-lg-6 col-md-8">
+							<p class="banner-p1" style="font-size:18px">扫二维码加微信好友。</p>
+						</div>
+						<div class="clearfix"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-lg btn-success" data-dismiss="modal">关闭</button>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="modal fade" id="showQQ" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">QQ</h4>
+				</div>
+				<div class="modal-body">
+					
+						<div class="col-lg-6 col-md-4">
+							<img src="images/qq_code.jpg" class="img-responsive" alt="w3layouts" title="w3layouts">
+						</div>
+						<div class="col-lg-6 col-md-8">
+							<p class="banner-p1" style="font-size:18px">扫二维码加QQ好友。</p>
+						</div>
+						<div class="clearfix"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-lg btn-success" data-dismiss="modal">关闭</button>
+				</div>
+			</div>
+		</div>
+    </div>
+    <div class="modal fade" id="showTwitter" tabindex="-1" role="dialog" aria-labelledby="largeModal" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Twitter</h4>
+				</div>
+				<div class="modal-body">
+					
+						<div class="col-lg-6 col-md-4">
+							<img src="images/twitter_code.jpg" class="img-responsive" alt="w3layouts" title="w3layouts">
+						</div>
+						<div class="col-lg-6 col-md-8">
+							<p class="banner-p1" style="font-size:18px">扫二维码关注我的Twitter。</p>
+						</div>
+						<div class="clearfix"></div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-lg btn-success" data-dismiss="modal">关闭</button>
 				</div>
 			</div>
 		</div>
@@ -335,12 +404,13 @@
 <section class="contact-w3ls" id="contact">
 	<div class="container">
 		<h3 class="text-center slideanim">联系我们</h3>
+		<p class="text-center slideanim">欢迎联系我们</p>
 		<ul class="social-icons1">
-			<li><a href="tel://222"><i class="fa fa-phone"></i></a></li>
+			<li><a href="#" data-toggle="modal" data-target="#showTel"><i class="fa fa-phone"></i></a></li>
 			<li><a href="mailto:partnership@anarobotics.com"><i class="fa fa-envelope"></i></a></li>
-			<li><a href="#" data-toggle="modal" data-target="#largeModal"><i class="fa fa-weixin"></i></a></li>
-			<li><a href="#"><i class="fa fa-qq"></i></a></li>
-			<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			<li><a href="#" data-toggle="modal" data-target="#showWeiXin"><i class="fa fa-weixin"></i></a></li>
+			<li><a href="#" data-toggle="modal" data-target="#showQQ"><i class="fa fa-qq"></i></a></li>
+			<li><a href="#" data-toggle="modal" data-target="#showTwitter"><i class="fa fa-twitter"></i></a></li>
 		</ul>	
 	</div>
 </section>
